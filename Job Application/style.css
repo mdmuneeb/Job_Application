@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+
+.container{
+    /* border: 2px solid black; */
+    width: 40vw;
+    height: 75vh;   
+    margin: 50px auto;
+    padding-left: 60px;
+    padding-top: 50px;
+    font-family: 'Playfair', serif;
+    font-size: 18px;
+    background-color: white;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 15px ;
+    
+}
+p{
+    font-size: 20px;
+
+}
+#Second{
+    padding-top: 15px;
+}
+#Third{
+    padding-top: 15px;
+}
+#Forth{
+    padding-top: 15px;
+}
+#Fifth{
+    padding-top: 15px;
+}
+#btn{
+    
+}
+#last{
+    padding-left: 150px;
+}
+#role{
+    padding-left: 195px;
+}
+#pin{
+    padding-left: 207px;
+}
+#cv{
+    padding-left: 160px;
+}
+#lastname{
+    margin-left: 10px;
+}
+#jobrole{
+    margin-left: 10px;
+    width: 230px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#pincode{
+    margin-left: 10px;
+}
+#uploadcv{
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    width: 230px;
+    height: 25px;
+}
+input{
+    margin-top: 5px;
+    width: 230px;
+    height: 25px;
+    border: 1px solid #ccc;
+    padding-left: 7px;
+    border-radius: 5px;
+}
+textarea{
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 470px;    
+}
+#btn{
+    margin-left: 355px;
+    margin-top: 25px;
+    width: 8vw;
+    height: 3.5vh;
+    color: black;
+    background-color: red;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+input:focus,textarea:focus,select:focus{
+    outline-color: red;
+}
+#btn:hover{
+    background-color: #ccc;
+    color: black;
+}
